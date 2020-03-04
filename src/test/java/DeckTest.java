@@ -31,12 +31,25 @@ class DeckTest {
 	}
 
 	@Test
-	void testDeckShuffle() {
+	void testDeckReturnCards() {
 		Card card1 = d.get(0);
 		d.remove(0);
 		Card card2 = d.get(0);
 
 		assertFalse(card1 == card2);
+	}
+
+	@Test
+	void testDeckShuffle() {
+
+		Deck oldDeck = new Deck();
+		for (int i = 0; i < d.size(); i++) {
+			oldDeck.add(i, d.get(i));
+		}
+
+		d.newDeck();
+
+		assertFalse(d.equals(oldDeck));
 	}
 
 }
