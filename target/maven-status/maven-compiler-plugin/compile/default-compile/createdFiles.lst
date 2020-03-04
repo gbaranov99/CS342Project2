@@ -3,5 +3,6 @@ Dealer.class
 Card.class
 ThreeCardPokerGame.class
 CompareCards.class
+ThreeCardPokerGame$1.class
 Player.class
 Deck.class
