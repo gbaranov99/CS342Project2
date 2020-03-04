@@ -75,10 +75,10 @@ public class ThreeCardLogic {
 		
 		else {
 			for (int i = 0; i < 3 ; i++) {
-				if (dealer.get(i).value < player.get(i).value) {
+				if (dealer.get(i).value > player.get(i).value) {
 					return 1;
 				}
-				else if (player.get(i).value < dealer.get(i).value) {
+				else if (player.get(i).value > dealer.get(i).value) {
 					return 2;
 				}
 			}
