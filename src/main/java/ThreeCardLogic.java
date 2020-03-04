@@ -7,9 +7,6 @@ public class ThreeCardLogic {
 			if (hand.get(1).value == hand.get(2).value && hand.get(1).value == hand.get(0).value) {
 				return 2;
 			}
-			else if (hand.get(0).suit == hand.get(1).suit && hand.get(1).suit == hand.get(2).suit) {
-				return 4;
-			}
 			else {
 				return 5;
 			}

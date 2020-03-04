@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Deck extends ArrayList<Card> {
-	
+
 	Deck() {
-		
+
 		this.newDeck();
 	}
 

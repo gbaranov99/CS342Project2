@@ -24,9 +24,9 @@ public class Dealer {
 			theDeck.remove(0);
 		}
 
-		Collections.sort(output, new SortByCards());
+		Collections.sort(output, new CompareCards());
 
 		return output;
 	}
-	
+
 }
