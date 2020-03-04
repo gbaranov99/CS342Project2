@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Dealer {
 
@@ -22,6 +23,8 @@ public class Dealer {
 			output.add(i, theDeck.get(0));
 			theDeck.remove(0);
 		}
+
+		Collections.sort(output, new SortByCards());
 
 		return output;
 	}

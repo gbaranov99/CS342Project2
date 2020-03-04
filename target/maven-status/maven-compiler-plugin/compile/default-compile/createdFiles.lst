@@ -1,6 +1,7 @@
-Card.class
-ThreeCardPokerGame$1.class
-Dealer.class
-ThreeCardPokerGame.class
 Player.class
 Deck.class
+Card.class
+ThreeCardPokerGame$1.class
+SortByCards.class
+Dealer.class
+ThreeCardPokerGame.class
