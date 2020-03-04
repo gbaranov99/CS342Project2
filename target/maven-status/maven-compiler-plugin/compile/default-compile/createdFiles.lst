@@ -1,5 +1,6 @@
 Player.class
 Deck.class
+ThreeCardLogic.class
 Card.class
 ThreeCardPokerGame$1.class
 SortByCards.class
