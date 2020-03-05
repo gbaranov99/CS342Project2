@@ -1,8 +1,8 @@
-ThreeCardLogic.class
 Dealer.class
-Card.class
-ThreeCardPokerGame.class
 CompareCards.class
 ThreeCardPokerGame$1.class
+ThreeCardLogic.class
+Card.class
+ThreeCardPokerGame.class
 Player.class
 Deck.class
